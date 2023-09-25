@@ -1,0 +1,32 @@
+<html>
+<head>
+<title> Estrutura Condicional Simples</title>
+</head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body leftmargin="80" topmargin="80">
+
+<h1>Algoritimo estrutura condicional</h1>
+
+<p>Numero: <span id="Numero" > </span> </p>
+
+<script>
+
+let NUMERO =Number(prompt("Digite um número"));
+let SITUACAO;
+
+if(NUMERO <100){
+    SITUACAO="MENOR QUE 100";
+
+}else{
+    SITUACAO=NUMERO+150;
+}
+  
+
+document.getElementById("Numero").innerHTML=SITUACAO
+
+</script>
+</body>
+</html>
+
